@@ -1,0 +1,59 @@
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    border: solid;
+    border-color:black;
+    font-weight: bold;
+    font-family:monospace;
+}
+button:hover{
+	cursor: pointer;
+	border:none;
+    background-color: black;
+    color: white;
+}
+input{
+	border-radius: 5px;
+    color: black;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(255, 255, 255, 0.3);
+    border: none;
+    font-weight: bold;
+    font-family: monospace;
+    outline: none;
+}
+input:focus{
+	
+	outline: none;
+	border: none;
+}
+::placeholder{
+	color:white;
+}
+td{
+	font-weight: bolder;
+    font-family: math;
+    padding: 5px;
+    text-align: right;
+    color: ghostwhite;
+}
+#right{
+	text-align:right;
+}
+b{
+	margin-left:10px;
+	margin-top:10px;
+	font-size:20px;
+}
+h1{
+	font-size: 30px;
+	color:black;
+}
+strong{
+	color:orange;
+	font-size:50px;
+}
